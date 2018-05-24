@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements ImageSelectionCal
     @Override
     public int onSelectedListFind() {
         //프래그먼트 끼리의 통신은 Main에서 무조건 실시한다. listFragment -> MainActivity -> viewerFragment
-        listFragment.setListCheck(CurrentPosition,"-----> ");
+        listFragment.setListCheck(CurrentPosition,"----> ");
         return CurrentPosition;
     }
 }
